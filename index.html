@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Happy Birthday Aanchal! 🎂</h1>
+
+    <!-- Slideshow Section -->
+    <div class="slideshow-container">
+      <img class="slide" src="1.png" alt="Photo 1">
+      <img class="slide" src="2.png" alt="Photo 2">
+      <img class="slide" src="3.png" alt="Photo 3">
+      <img class="slide" src="4.png" alt="Photo 4">
+      <img class="slide" src="5.png" alt="Photo 5">
+      <img class="slide" src="6.png" alt="Photo 6"> 
+      <img class="slide" src="7.png" alt="Photo 7">
+      <img class="slide" src="8.png" alt="Photo 8">
+      <img class="slide" src="9.png" alt="Photo 9">
+      <img class="slide" src="10.png" alt="Photo 10">
+      <img class="slide" src="11.png" alt="Photo 11">
+      <img class="slide" src="12.png" alt="Photo 12"> 
+      <img class="slide" src="13.png" alt="Photo 13">
+      <img class="slide" src="14.png" alt="Photo 14">
+      <img class="slide" src="15.png" alt="Photo 15">
+    </div>
+
+    <p class="message">
+      Wishing you all the love, laughter, and joy in the world. <br>
+      You make every day brighter with your smile. <br>
+      Have the most beautiful birthday ever! 💖
+    </p>
+
+    <button onclick="launchConfetti()">Celebrate 🎊</button>
+
+    <!-- Gift Section -->
+    <div class="gift-section">
+      <h2>🎁 You have a special gift! 🎁</h2>
+      <p>Click the button below to reveal your gift 🎁:</p>
+      <button onclick="revealCode()">Reveal Gift 🎉</button>
+      <div id="code-box" class="hidden">
+        <p><strong>Your Code:</strong> <span id="gift-code">HBD2025-LOVEU</span></p>
+        <button onclick="copyCode()">Copy Code</button>
+        <p class="gift-message">Msg me then, I will tell you steps how to purchase spotify subscription 🎧🙃</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Background Music -->
+  <audio autoplay loop controls style="display: block; margin: 20px auto;">
+    <source src="happy_birthday.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <canvas id="confetti-canvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>

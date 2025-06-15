@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.photo {
+  width: 250px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  margin: 20px 0;
+}
+
+.message {
+  font-size: 1.3em;
+  margin: 30px 0;
+  line-height: 1.5;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1.1em;
+  border: none;
+  background-color: #ff6ec4;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #7873f5;
+}
+
+.gift-section {
+  margin: 40px 0;
+}
+
+#code-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #ffffff22;
+  border-radius: 12px;
+  display: none;
+}
+
+#code-box p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+#gift-code {
+  color: #fff700;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.hidden {
+  display: none;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.gift-message {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #ffffff;
+}
