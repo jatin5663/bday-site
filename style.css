@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@700&display=swap');
+
 body {
   margin: 0;
   font-family: 'Poppins', cursive, sans-serif;
   background: linear-gradient(to right, #fbc2eb, #a6c1ee);
-  color: #fff;
+  color: #000000;
   text-align: center;
 }
 
@@ -13,6 +15,19 @@ body {
 h1 {
   font-size: 3em;
   margin-bottom: 20px;
+}
+
+.elegant-script {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.bold-script {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  color: #000000;
 }
 
 .photo {
